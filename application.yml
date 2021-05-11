@@ -1,8 +1,6 @@
 spring:
   application:
     name: CONFIG_CLIENT
-  config:
-    import: configserver:http://localhost:8888
     
 server:
   port: 8881
